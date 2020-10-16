@@ -1,0 +1,128 @@
+.App {
+    text-align: center;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .App-header {
+    padding: 30px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    max-width: 1400px;
+    width: 80%;
+  }
+
+  .labelText {
+    color: yellow;
+    text-align: left;
+    margin: 0px
+  }
+
+  .metricText {
+    margin: 10px 0;
+    color: yellow;
+    text-align: left;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  #host-selector {
+    width: 200px;
+  }
+
+  .cpu-metric-selector {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .single-line-chart-card {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+  }
+
+  .memory-chart-card {
+    height: auto !important;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+  }
+
+  .unitText {
+    color: black;
+    font-size: 12px;
+  }
+
+  .duration-selector {
+    width: 120px
+  }
+
+  .graph-help-top-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .chart-type-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .chart-type-form {
+    display: flex;
+  }
+
+  .chart-type-label {
+    color: black;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  .graph-container {
+    display: flex;
+  }
+
+  #cpu-network {
+    flex: 2
+  }
+
+  #memory-chart-container {
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 40px
+  }
+
+  .legend-marker-line {
+    display: flex;
+    align-items: center;
+  }
+
+  .legend-marker-line.focused {
+    background-color: lightblue;
+  }
+
+  .legend-marker-rect {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+
+  .legend-marker {
+    font-size: 12px;
+    flex: 1;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .legend-marker-percent {
+    font-size: 12px;
+    color: black;
+  }
+  

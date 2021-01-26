@@ -1,12 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-amcharts4
 
-## Available Scripts
+## A simple SPA for checking real-time CPU & Network & Memory status of 2 PCs.
 
-In the project directory, you can run:
+### `React` `Amcharts4` `Node` `Express` `CORS`
 
-### `yarn dev`
+- Functions
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - You can select one PC(Hosting)
+  - You can select one among 5 CPU metrics. (Idle, User, System, IOwait, Steal)
+  - You can select one time range among 3 options. (1h, 2h, 3h)
+  - You can select one chart type. (Line or Bar)
+  - Update charts in real-time without rerendering whole component.
+  - Used node backend to get the server data
 
-The node server will be opened at [http://localhost:3002](http://localhost:3002) simultanously.
+## Installation and Test
+
+```
+- yarn
+```
+
+```
+- yarn dev (start react server and node server)
+```
